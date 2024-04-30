@@ -2,7 +2,11 @@
 
 🔴🔴 LIVE PROJECT CAN BE VIEWED FROM HERE : https://sameer-news.carvedphysique.com/ 🔴🔴<br>
 🔴🔴 DEVELOPER EMAIL : sameer622004@gmail.com 🔴🔴<br>
-🔴🔴 ADMIN TEMPLATE (Concept) :https://colorlib.com/polygon/concept/index.html 🔴🔴<br>
+🔴🔴 ADMIN TEMPLATE (Concept) : https://colorlib.com/polygon/concept/index.html 🔴🔴<br>
+
+<h2>Laravel MVC Architecture Diagram</h2><br>
+
+![mvc-architecture](https://github.com/sameer-2004/news/assets/90268342/67a94800-998c-4f67-aa9a-f39188e55991)
 
 
 <h2>Admin Panel</h2><br>
