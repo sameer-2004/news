@@ -1,0 +1,158 @@
+.like-stat {
+  margin-top: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.like-stat:hover {
+  text-decoration: underline;
+}
+
+.emojies-box-2 {
+  height: 61px;
+  width: 358px;
+  padding: 10px;
+  position: absolute;
+  top: -57px;
+  left: -14px;
+  box-shadow: 1px 1px 2px #cccccc, -1px 0px 2px #eeeeee;
+  border-radius: 44px 44px;
+  display: none; 
+}
+
+.emoji-2 {
+  list-style-type: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 8px;
+  opacity: 0;
+  transform: scale(1, 1);
+  transition: opacity .5s ease-in-out 1s, transform .07s ease-in-out 0s, top .07s ease-in-out 0s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center
+}
+
+.like-stat:hover .emojies-box-2 {
+  display: block;
+}
+
+.emo-like-2 {
+  left: 10px;
+  transition-delay: 0s;
+  background-image: url('./images/reactions_like.png');
+}
+
+.emo-love-2 {
+  left: 68px;
+  transition-delay: .05s;
+  background-image: url('./images/reactions_love.png');
+}
+
+.emo-haha-2 {
+  left: 126px;
+  transition-delay: .1s;
+  background-image: url('./images/reactions_haha.png');
+}
+
+.emo-wow-2 {
+  left: 184px;
+  transition-delay: .15s;
+  background-image: url('./images/reactions_wow.png');
+}
+
+.emo-sad-2 {
+  left: 242px;
+  transition-delay: .2s;
+  background-image: url('./images/reactions_sad.png');
+}
+
+.emo-angry-2 {
+  left: 300px;
+  transition-delay: .25s;
+  background-image: url('./images/reactions_angry.png');
+}
+
+
+.like-stat:hover .emoji-2 {
+  opacity: 1;
+  animation-name: reaction_delay;
+  animation-duration: .5s;
+}
+
+@keyframes reaction_delay {
+  0% {
+    width: 48px;
+    height: 48px;
+    top: 60px;
+  }
+  48% {
+    width: 56px;
+    height: 56px;
+    top: 5px;
+  }	
+  100% {
+    width: 48px;
+    height: 48px;
+    top: 8px;
+  }
+}
+
+.like-stat:hover .emo-like-2 {
+  animation-delay: 0s
+}
+
+.like-stat:hover .emo-love-2 {
+  animation-delay: .05s
+}
+
+.like-stat:hover .emo-haha-2 {
+  animation-delay: .1s
+}
+
+.like-stat:hover .emo-wow-2 {
+  animation-delay: .15s
+}
+
+.like-stat:hover .emo-sad-2 {
+  animation-delay: .2s
+}
+
+.like-stat:hover .emo-angry-2 {
+  animation-delay: .25s
+}
+
+.emoji-2:hover {
+  transform: scale(1.3, 1.3);
+  top: 2px
+}
+
+.emoji-2::before {
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  line-height: 17px;
+  font-size: .7em;
+  width: 80%;
+  height: 17px;
+  margin-left: 10%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  position: absolute;
+  top: -25px;
+  opacity: 0;
+  transition: opacity .2s ease-in-out 0s;
+}
+
+.emoji-2:hover::before {
+  opacity: 1
+}
+
+
+
+
+
+
